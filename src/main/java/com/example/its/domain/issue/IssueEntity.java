@@ -1,11 +1,11 @@
 package com.example.its.domain.issue;
 
-public class issueEntity {
+public class IssueEntity {
     private long id;
     private String summary;
     private String description;
 
-    public issueEntity(long id, String summary, String description) {
+    public IssueEntity(long id, String summary, String description) {
         this.id = id;
         this.summary = summary;
         this.description = description;
