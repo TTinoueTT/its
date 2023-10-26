@@ -10,6 +10,7 @@ import java.util.List;
 
 @Controller
 public class IssueController {
+    //@formatter:off
     // Get: /issues
     @GetMapping("/issues")
     public String showList(Model model) {
@@ -21,5 +22,7 @@ public class IssueController {
         model.addAttribute("issueList", issueList);
         return "issues/list";
     }
+    //@formatter:on
 
+    
 }
