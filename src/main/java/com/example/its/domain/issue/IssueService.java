@@ -1,7 +1,9 @@
 package com.example.its.domain.issue;
 
-import java.util.List;
+import org.springframework.stereotype.Service;
 
+import java.util.List;
+@Service// injection をするためにつけるアノテーション
 public class IssueService {
     public List<IssueEntity> findAll() {
         return List.of(
